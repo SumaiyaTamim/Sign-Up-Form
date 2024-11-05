@@ -1,0 +1,32 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-container{
+    display: flex;
+}
+.main-page{
+    display: flex;
+    flex-direction: column;
+}
+.top, .bottom{
+    width: 780px;
+    height: 100px;
+    background: #D3D3D3;
+}
+
+.top p{
+    text-align: center;
+    margin: 30px;
+}
+.center{
+    width: 700px;
+    height: 350px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+}
+.first-column .second-column{
+    flex: 1;
+}
